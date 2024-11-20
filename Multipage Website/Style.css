@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 nav {
-    background-color: #444;
+    background-color:orange;
     text-align: center;
     padding: 10px 0;
 }
@@ -24,7 +24,7 @@ nav a:hover {
     text-decoration: underline;
 }
 footer {
-    background-color: #333;
+    background-color:orange;
     color: white;
     text-align: center;
     padding: 10px 20px;
