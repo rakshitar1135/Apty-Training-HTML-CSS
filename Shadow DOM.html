@@ -18,7 +18,7 @@
     <user-card></user-card>
 
     <script>
-        // Define the template
+      
         const template = document.createElement('template');
         template.innerHTML = `
             <style>
@@ -56,20 +56,20 @@
             </div>
         `;
 
-        // Create the custom element
+       
         class UserCard extends HTMLElement {
             constructor() {
                 super();
 
-                // Attach Shadow DOM
+                
                 const shadowRoot = this.attachShadow({ mode: 'open' });
                 shadowRoot.appendChild(template.content.cloneNode(true));
 
-                // You can further manipulate the Shadow DOM here
+              
             }
         }
 
-        // Define the custom element
+      
         customElements.define('user-card', UserCard);
     </script>
 </body>
