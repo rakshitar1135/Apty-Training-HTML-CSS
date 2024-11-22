@@ -1,0 +1,78 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #00bcd4;
+}
+
+/* Section Styling */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/* Contact Info Links */
+section#contact a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+section#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    background: #333;
+    color: #fff;
+}
